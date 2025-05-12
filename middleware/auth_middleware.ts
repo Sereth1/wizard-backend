@@ -21,5 +21,5 @@ export function verifyToken(
     return;
   }
 
-  next(); // ✅ This continues to the next middleware/route
+  next(); 
 }
